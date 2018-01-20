@@ -1,0 +1,724 @@
+/* General styling */
+body {
+  margin: 0;
+}
+
+.header {
+  /*background-color: lightpink;*/
+}
+
+.logoContainer {
+  width: 100%;
+  height: 11%;
+  margin-bottom: 15%;
+}
+
+#logo {
+  margin-top: 5%;
+  margin-left: 3%;
+  width: 90%;
+  height: 100%;
+}
+
+.errorContainer {
+  background-color: white;
+  color: red;
+  text-align: center;
+  display: inline-block;
+}
+
+.errorContainer1 {
+  background-color: white;
+  color: red;
+  text-align: center;
+  float: inherit;
+  display: inline-block;
+}
+
+.hiddenError {
+  display: none;
+}
+
+.masterPage {
+  vertical-align: top;
+}
+
+.sidebar {
+  width: 17%;
+  height: 100%; /* how grow with whole page??? */
+  display: inline-block;
+  background-color: white;
+  vertical-align: top;
+}
+
+.navigation {
+}
+
+.navigation ul {
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav {
+  padding-left: 8%;
+  display: block;
+  width: 91%;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.pageContent {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+  /*background-color: lightgreen;*/
+}
+
+.headerImage {
+  width: 100%;
+  height: 25%;
+}
+
+.defaultHeader {
+  font-family: sans-serif;
+  color: black;
+}
+
+.defaultParagraph {
+  font-family: sans-serif;
+  text-align: justify;
+  color: black;
+}
+
+.halfParagraph {
+  font-family: sans-serif;
+  text-align: justify;
+  color: black;
+  display: inline-block;
+  width: 67%;
+}
+
+.teamParagraph {
+  font-family: sans-serif;
+  text-align: justify;
+  color: black;
+  width: 60%;
+}
+
+.infoBlock {
+  display: inline-block;
+  background-color: #17B68C;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  vertical-align: top;
+  margin-left: 2%;
+}
+
+.contentImage {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5%;
+}
+
+.teamImage {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2%;
+}
+
+.defaultList {
+  font-family: sans-serif;
+  text-align: justify;
+  width: 68%;
+}
+
+.defaultList li {
+  margin-bottom: 2%;
+}
+
+.defaultButton {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  background-color: #17B68C;
+  color: white;
+  padding: 1%;
+  width: 30%;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+}
+
+.mobileButton {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  background-color: #17B68C;
+  color: white;
+  padding: 1%;
+  width: 30%;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+}
+
+#directorButton {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  background-color: #17B68C;
+  color: white;
+  padding: 1%;
+  width: 30%;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+}
+
+#staffButton {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  background-color: #17B68C;
+  color: white;
+  padding: 1%;
+  width: 30%;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+}
+
+#mediaButton {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  background-color: #17B68C;
+  color: white;
+  padding: 1%;
+  width: 30%;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+}
+
+#momButton {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  background-color: #17B68C;
+  color: white;
+  padding: 1%;
+  width: 30%;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+}
+
+.defaultTable {
+  font-family: sans-serif;
+  color: black;
+  width: 100%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.defaultTable td {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.toggleContent {
+  display: none;
+}
+
+#toggleDirector {
+  display: none;
+}
+
+#toggleStaff {
+  display: none;
+}
+
+#toggleMedia {
+  display: none;
+}
+
+#toggleMom {
+  display: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#register {
+  margin: auto;
+  margin-top: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 45%;
+  border: none;
+  background-color: #17B68C;
+}
+
+#register input, select {
+  padding-top: 1.5%;
+  padding-left: 1%;
+  padding-bottom: 1.5%;
+  border: #17B68C;
+}
+
+.inputSection {
+  font-family: sans-serif;
+  color: white;
+  margin: auto;
+  margin-bottom: 3%;
+  width: 70%;
+}
+
+.submitButton {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  background-color: #17B68C;
+  color: white;
+  padding: 1%;
+  width: 30%;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  margin-top: 3%;
+}
+
+.hyperlink {
+  color: #17B68C;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+#firstname, #lastname {
+  width: 70%;
+}
+
+#email {
+  width: 82%;
+}
+
+/* Styling for laptops and desktops */
+@media only screen and (min-width: 1080px) {
+
+.navigation {
+  font-size: 20px;
+}
+
+.nav {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-right: 5px solid #ACCAE5;
+}
+
+.nav:hover {
+  border-right: 5px solid #17B68C;
+}
+
+.nav:active {
+  color: white;
+  background-color: #17B68C;
+}
+
+.sidebar {
+  position: fixed;
+  box-shadow: 0px 0px 32px #D6D6D6;
+}
+
+.pageContent {
+}
+
+.defaultHeader {
+  font-size: 20px;
+}
+
+.defaultParagraph {
+  font-size: 16px;
+}
+
+.hyperlink {
+  font-size: 16px;
+}
+
+.teamParagraph {
+  font-size: 16px;
+}
+
+.blockHeader {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.blockParagraph {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.infoBlock {
+  float: right;
+  box-shadow: 5px 5px 32px #D6D6D6;
+}
+
+.contentImage {
+  width: 305px;
+  float: right;
+  box-shadow: 5px 5px 32px #D6D6D6;
+}
+
+.teamImage {
+  width: 305px;
+  height: 200px;
+  float: right;
+  box-shadow: 5px 5px 32px #D6D6D6;
+}
+
+.defaultButton {
+  font-size: 20px;
+  box-shadow: 5px 5px 12px #D6D6D6;
+  transition-duration: 0.4s;
+}
+
+#directorButton {
+  font-size: 20px;
+  box-shadow: 5px 5px 12px #D6D6D6;
+  transition-duration: 0.4s;
+}
+
+#staffButton {
+  font-size: 20px;
+  box-shadow: 5px 5px 12px #D6D6D6;
+  transition-duration: 0.4s;
+}
+
+#mediaButton {
+  font-size: 20px;
+  box-shadow: 5px 5px 12px #D6D6D6;
+  transition-duration: 0.4s;
+}
+
+#momButton {
+  font-size: 20px;
+  box-shadow: 5px 5px 12px #D6D6D6;
+  transition-duration: 0.4s;
+}
+
+.defaultButton:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#directorButton:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#staffButton:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#mediaButton:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#momButton:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#register {
+  box-shadow: 5px 5px 32px #D6D6D6;
+}
+
+#register input, select {
+  border-radius: 5px;
+}
+
+.submitButton {
+  font-size: 20px;
+  box-shadow: 5px 5px 12px #D6D6D6;
+  transition-duration: 0.4s;
+}
+
+.submitButton:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.defaultButton:active {
+  border-radius: 12px;
+}
+
+.errorContainer {
+  margin-top: 12px;
+  border: 1px red solid;
+  font-size: 9px;
+  padding: 7px 2px;
+}
+
+.errorContainer1 {
+  margin-top: 12px;
+  border: 1px red solid;
+  font-size: 9px;
+  padding: 7px 2px;
+}
+
+#sideButton {
+  display: none;
+}
+
+#closeButton {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  .sidebar {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    display: inline-block;
+    box-shadow: 0px 0px 32px #D6D6D6;
+    transition: 0.7s;
+  }
+
+  .logoContainer {
+    display: none;
+  }
+
+  .navigation {
+    width: 0px;
+    opacity: 0;
+    transition: 0.7s;
+  }
+
+  .pageContent {
+    width: 86%;
+    margin-left: 25px;
+    transition: 0.7s;
+  }
+
+  .headerImage {
+    height: 120px;
+  }
+
+  .nav {
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-right: 5px solid #ACCAE5;
+    transition: 0.7s;
+  }
+
+  .nav:hover {
+    border-right: 5px solid #17B68C;
+  }
+
+  .nav:active {
+    color: white;
+    background-color: #17B68C;
+  }
+
+  .defaultParagraph {
+    width: 100%;
+  }
+
+  .halfParagraph {
+    width: 100%;
+  }
+
+  .defaultList {
+    width: 80%;
+  }
+
+  .teamParagraph {
+    width: 100%;
+  }
+
+  .defaultHeader {
+    font-size: 20px;
+  }
+
+  .blockHeader {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  .defaultParagraph {
+    font-size: 16px;
+  }
+
+  .blockParagraph {
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+  .infoBlock {
+    margin: auto;
+    margin-top: 3%;
+  }
+
+  .teamParagraph {
+    font-size: 16px;
+  }
+
+  .halfParagraph {
+    font-size: 16px;
+  }
+
+  .contentImage {
+    width: 92%;
+    display: inline-block;
+  }
+
+  #register {
+    margin: auto;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+    border: none;
+    background-color: #17B68C;
+    box-shadow: 5px 5px 32px #D6D6D6;
+  }
+
+  #register input, select {
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-bottom: 1.5%;
+    border: #17B68C;
+    border-radius: 5px;
+  }
+
+  .inputSection {
+    font-family: sans-serif;
+    color: white;
+    margin: auto;
+    margin-bottom: 6%;
+    width: 100%;
+  }
+
+  #sideButton {
+    margin-bottom: 10px;
+    display: block;
+    background-color: #17B68C;
+    color: white;
+    padding: 1%;
+    width: 7%;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  #closeButton {
+    font-size: 22px;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    margin-left: 8%;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 1%;
+    height: 65%;
+    width: 10%;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+  }
+
+  .submitButton {
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    background-color: #17B68C;
+    color: white;
+    padding: 1%;
+    width: 30%;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    margin-top: 3%;
+    font-size: 14px;
+    box-shadow: 5px 5px 12px #D6D6D6;
+    transition-duration: 0.4s;
+  }
+
+  .errorContainer {
+    margin-top: 12px;
+    border: 1px red solid;
+    font-size: 9px;
+    padding: 7px 2px;
+  }
+
+  .errorContainer1 {
+    margin-top: 12px;
+    border: 1px red solid;
+    font-size: 9px;
+    padding: 7px 2px;
+  }
+
+  .defaultButton {
+    font-size: 16px;
+    width: 75%;
+    padding: 10px;
+    /*display: none;*/
+  }
+
+  #directorButton {
+    padding: 15px;
+    width: 60%;
+    font-size: 14px;
+    box-shadow: 5px 5px 12px #D6D6D6;
+    transition-duration: 0.4s;
+  }
+
+  #staffButton {
+    padding: 15px;
+    width: 60%;
+    font-size: 14px;
+    box-shadow: 5px 5px 12px #D6D6D6;
+    transition-duration: 0.4s;
+  }
+
+  #mediaButton {
+    padding: 15px;
+    width: 60%;
+    font-size: 14px;
+    box-shadow: 5px 5px 12px #D6D6D6;
+    transition-duration: 0.4s;
+  }
+
+  #momButton {
+    padding: 15px;
+    width: 60%;
+    font-size: 14px;
+    box-shadow: 5px 5px 12px #D6D6D6;
+    transition-duration: 0.4s;
+  }
+
+}
